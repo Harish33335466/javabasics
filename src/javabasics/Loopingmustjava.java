@@ -9,6 +9,7 @@ public class Loopingmustjava {
 		while(i<=100) {
 			if(i%2==0 && i<=35) {
 				System.out.println("I am printing i value" + i);
+				System.out.println("demo");
 			}
 			else {
 				System.out.println("I am gonna print anything for you");
@@ -27,6 +28,8 @@ public class Loopingmustjava {
         }
         
         //Reverse a number ;
+		System.out.println("demo");
+
 
 	}
 
