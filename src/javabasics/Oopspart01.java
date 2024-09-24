@@ -1,16 +1,15 @@
 package javabasics;
-
 public class Oopspart01 {
 	
 	//Variables
-	int empid;
-	String empname;
-	String designation;
-	int sal;
+	public int empid;
+	public String empname;
+	public String designation;
+	public int sal;
 	
 	//Methods
 	//void no return value just print the value
-	void display(){
+	public void display(){
 		System.out.println("His employee id is" + empid);
 		System.out.println("Employee name is" + empname);
 		System.out.println("Employee designation is" + designation);
