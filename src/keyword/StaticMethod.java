@@ -2,7 +2,7 @@ package keyword;
 
 public class StaticMethod {
 	
-	static int d;
+	public static int d=200;
 	static int e;
 
 	static void displayotm() {

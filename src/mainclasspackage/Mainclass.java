@@ -1,6 +1,7 @@
 package mainclasspackage;
 import javabasics.Oopspart01;
 import javabasics.Studentclass;
+import keyword.StaticMethod;
 public class Mainclass {
 	public static void main(String[] args) {
 		Studentclass stu = new Studentclass(); //object created;
@@ -19,6 +20,9 @@ public class Mainclass {
 		empclass2.empid=4345666;
 		empclass2.empname="keer";
 		empclass2.sal=80000;
-		empclass2.display();		
+		empclass2.display();	
+		
+	    System.out.println(StaticMethod.d);
+		
 	}
 }
