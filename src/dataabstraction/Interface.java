@@ -41,7 +41,7 @@ public class Interface implements Shape {
 		
 		sh.square();
 		sh.circle();
-		Shape.rectangle();
+		Shape.rectangle();//we can access the static method without creating an object since it's global method
 		
 		//we can access the interface static variables directly without declaring an object
 		
